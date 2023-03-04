@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap&family=Roboto:wght@200;300;400;500;600&display=swap" rel="stylesheet"" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" type="text/css">
     <title>Import Information</title>
 </head>
 <body>
-    <div>this is probe</div>
+    <div class="container">
+        <h1 class="ff-jost fs-700 text-centered fw-500 uppercase medium-spacing">
+            import barang ke Jerman
+        </h1>
+    </div>
+    <div class="container medium-spacing flow-ver">
+        <h2 class="ff-jost fs-600 fw-500 uppercase medium-spacing">
+            step pertama
+        </h2>
+        <ul class="flow-ver">
+            <li>
+                <p>Buka Website <a href="https://trade.ec.europa.eu/access-to-markets/en/home">access2markets</a><br>
+                   Itu adalah website resmi EU yang menyediakan informasi tentang import dan export     
+                </p>
+            </li>
+            <li>
+                <p>Masukan jenis komoditi yang ingin diimport beserta negara asal dan tujuan dengan menggunakan <b>My Trade Assistant</b> yang tertera di website</p> <br>
+                <p><i>kita menggunakan <b>My Trade Assistant</b> untuk mendapatkan <b>HS-Code, informasi tarif dan pajak</b>, notes: </i></p><br>
+                <p>Bila tidak tercantum <b>HS-Code</b>, maka bisa menggunakan fitur <b>full of list goods</b> </p>
+            </li>
+            <li>
+                <h2 class="ff-jost fs-400 fw-500 uppercase">
+                    voila, kita sudah bisa lihat tarif dan pajak dari komoditi yang akan kita import
+                </h2>
+            </li>
+        </ul>
+        <h5 class="ff-jost fs-500 fw-500 uppercase">
+            contoh:
+        </h5>
+        <p>Barang yang mau diimport adalah cengkeh <br> setelah kita ikuti step pertama, kita dapat informasi seperti yang tertera di gambar di bawah</p>
+        <img src="asset/cengkeh-tariff.png" alt="">
+        <p>Di situ bisa kita lihat ada 2 jenis tarif yang berbeda, <b class="uppercase">erga omnes</b> dan <b class="uppercase">GSP- General Arrangement</b></p>
+        <p><b class="uppercase">erga omnes</b> artinya <b>Dalam hukum umum, suatu tindakan, keputusan atau penilaian yang mempengaruhi semua pihak, tidak hanya mereka yang secara langsung berkepentingan</b></p>
+        <p><b class="uppercase">GSP</b> artinya <b>one-way-tariff yang menguntungkan negara-negara berkembang</b></p>
+        <p>Selain itu, ada juga kemungkinan sebuah komoditi akan mendapat tarif khusus apabila bisa memenuhi kriteria <b class="uppercase">Rules of Origin</b></p>
+        <p><b class="uppercase">Rules of Origin</b> artinya <b>kriteria yang diperlukan untuk menentukan asal negara suatu produk. </b></p>
+        <p>Untuk mengetahui kesesuaian barang, kita bisa menggunakan Tools ROSA yang tersedia di side menu pada website</p>
+        <img src="asset/side menu - ROSA.png" alt="">
+        <p><b>Bila kita hanya menemukan tarif ERGA OMNES setelah melakukan pencarian, maka itulah tarif yang dikenakan pada barang tersebut</b></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/CustomEase.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/EaselPlugin.min.js"></script>
+    <script src="main_animation.js"></script>
 </body>
 </html>
