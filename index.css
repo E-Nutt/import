@@ -85,9 +85,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-li{
-    list-style: circle;
-}
+
 /*       SET UP - FORM-ELEMENT        */
 
 select, input, textarea, button{font: inherit;}
